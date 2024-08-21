@@ -44,3 +44,36 @@ buttonSalaQuatro.addEventListener('mouseover',function(){
     salaTres.classList.add('invisivel');
     salaQuatro.classList.remove('invisivel');
 })
+
+const inicio = document.getElementById("btninicio");
+const salas = document.getElementById("btnsalas");
+const servicos = document.getElementById("btnservicos");
+const contato = document.getElementById("btncontato");
+
+inicio.addEventListener("click", function(){
+    window.scrollTo({
+        top:document.getElementsByTagName("nav").offsetTop,
+        behavior:"smooth"
+    })
+})
+
+salas.addEventListener("click", function(){
+    window.scrollTo({
+        top:document.getElementById('salaTop').offsetTop,
+        behavior:"smooth"
+    })
+})
+
+servicos.addEventListener("click", function(){
+    window.scrollTo({
+        top:document.getElementById('servicosTop').offsetTop,
+        behavior:"smooth"
+    })
+})
+
+contato.addEventListener("click", function(){
+    window.scrollTo({
+        top:document.getElementById('contatoTop').offsetTop,
+        behavior:"smooth"
+    })
+})
