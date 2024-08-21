@@ -14,14 +14,14 @@ const salaDois = document.getElementById("sala2");
 const salaTres = document.getElementById("sala3");
 const salaQuatro = document.getElementById("sala4");
 
-buttonSalaUm.addEventListener('click',function(){
+buttonSalaUm.addEventListener('mouseover',function(){
     salaUm.classList.remove('invisivel');
     salaDois.classList.add('invisivel');
     salaTres.classList.add('invisivel');
     salaQuatro.classList.add('invisivel');
 })
 
-buttonSalaDois.addEventListener('click',function(){
+buttonSalaDois.addEventListener('mouseover',function(){
 
     salaUm.classList.add('invisivel');
     salaDois.classList.remove('invisivel');
@@ -29,7 +29,7 @@ buttonSalaDois.addEventListener('click',function(){
     salaQuatro.classList.add('invisivel');
 })
 
-buttonSalaTres.addEventListener('click',function(){
+buttonSalaTres.addEventListener('mouseover',function(){
     
     salaUm.classList.add('invisivel');
     salaDois.classList.add('invisivel');
@@ -37,7 +37,7 @@ buttonSalaTres.addEventListener('click',function(){
     salaQuatro.classList.add('invisivel');
 })
 
-buttonSalaQuatro.addEventListener('click',function(){
+buttonSalaQuatro.addEventListener('mouseover',function(){
 
     salaUm.classList.add('invisivel');
     salaDois.classList.add('invisivel');

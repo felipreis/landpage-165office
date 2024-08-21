@@ -180,7 +180,7 @@ hr{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 6rem;
+    gap: 4rem;
 
     overflow: clip;
 
@@ -190,9 +190,14 @@ hr{
 
 .sala-conteudo{
     max-width: 60%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+}
+
+h3{
+    font-size:2rem;
 }
 
 .sala-img{
@@ -203,4 +208,55 @@ hr{
 .invisivel {
     display: none;
     transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.galeria{
+    max-width: 100%;
+    height: 40%;
+    margin-top: 3rem;
+    gap:1rem;
+
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+
+.pacotes-section{
+    max-width: 1120px;
+    height: 60vh;
+    margin:auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 3rem;
+    
+}
+
+.pacotes-artigos{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.texto-pacotes{
+    max-width: 32%;
+    height: 100%;
+    padding:0.5rem 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+
+    border: solid 1px;
+    border-radius: 1rem;
+    border-color: #2F4F4F;
+
+    
 }
