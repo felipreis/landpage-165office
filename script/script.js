@@ -80,26 +80,26 @@ contato.addEventListener("click", function(){
 
 document.getElementById('foto-sala 1.0').addEventListener('mouseover', function() {
     var img = document.getElementById('foto-sala1-grande');
-    img.src = './assets/imagens/salafrentecheia.jpg';
+    img.src = './assets/imagens/sala1/img1.jpg';
 });
 
 document.getElementById('foto-sala 1.1').addEventListener('mouseover', function() {
     var img = document.getElementById('foto-sala1-grande');
-    img.src = './assets/imagens/fotosala.jpg';
+    img.src = './assets/imagens/sala1/img2.jpg';
 });
 
 document.getElementById('foto-sala 1.2').addEventListener('mouseover', function() {
     var img = document.getElementById('foto-sala1-grande');
-    img.src = './assets/imagens/salafrentecheia.jpg';
+    img.src = './assets/imagens/sala1/img3.jpg';
 });
 
 document.getElementById('foto-sala 1.3').addEventListener('mouseover', function() {
     var img = document.getElementById('foto-sala1-grande');
-    img.src = './assets/imagens/fotosala.jpg';
+    img.src = './assets/imagens/sala1/img4.jpg';
 });
 
 document.getElementById('foto-sala 1.4').addEventListener('mouseover', function() {
     var img = document.getElementById('foto-sala1-grande');
-    img.src = './assets/imagens/salafrentecheia.jpg';
+    img.src = './assets/imagens/sala1/img5.jpg';
 });
 
