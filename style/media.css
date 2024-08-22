@@ -1,0 +1,96 @@
+@media screen and (max-width:425px){
+    
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    nav{
+        flex-direction: column;
+    }
+
+    .menu-bar{
+        height: 200px;
+    }
+
+    main{
+        flex-direction: column;
+        gap:30px;
+        justify-content: center;
+    }
+
+    .hero{
+        height: 100vh;
+    }
+
+    .hero-title{
+        font-size: 2rem;;
+    }
+
+    .hero-imagens-container{
+        display: none;
+    }
+
+    .hero-button{
+        font-size: 1rem;
+        width: 80%;
+    }
+
+    .sala-menu{
+        flex-wrap: wrap;
+        gap:1px;
+        width: 100%;
+    }
+
+    .button-sala-container{
+        margin: 0px;
+        width: 35%;
+    }
+
+    .salas-section{
+        gap:1rem;
+        height: 120vh;
+    }
+
+    .sala{
+        flex-direction: column;
+        height: 80vh;
+        width: 570px
+    }
+
+    h3{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    .sala-conteudo{
+        max-width: 50%;
+        height: 100%;
+    }
+
+    .galeria{
+        height: 20%;
+        max-width: 95%;
+        flex-wrap: wrap;
+    }
+
+    .galeria-foto{
+        height: 80%;
+    }
+
+    .pacotes-artigos{
+        flex-direction: column;
+        gap:1rem;
+    }
+
+    .texto-pacotes{
+        max-width: 100%;
+    }
+
+    .contato-section{
+        margin-top: 40rem;
+    }
+}
