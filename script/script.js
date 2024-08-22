@@ -78,6 +78,9 @@ contato.addEventListener("click", function(){
     })
 })
 
+
+/*alterando imagens sala #1 */
+
 document.getElementById('foto-sala 1.0').addEventListener('mouseover', function() {
     var img = document.getElementById('foto-sala1-grande');
     img.src = './assets/imagens/sala1/img1.jpg';
@@ -103,3 +106,29 @@ document.getElementById('foto-sala 1.4').addEventListener('mouseover', function(
     img.src = './assets/imagens/sala1/img5.jpg';
 });
 
+/*alterando imagens sala #2 */
+
+document.getElementById('foto-sala 2.0').addEventListener('mouseover', function() {
+    var img = document.getElementById('foto-sala2-grande');
+    img.src = './assets/imagens/sala2/img1.jpg';
+});
+
+document.getElementById('foto-sala 2.1').addEventListener('mouseover', function() {
+    var img = document.getElementById('foto-sala2-grande');
+    img.src = './assets/imagens/sala2/img2.jpg';
+});
+
+document.getElementById('foto-sala 2.2').addEventListener('mouseover', function() {
+    var img = document.getElementById('foto-sala2-grande');
+    img.src = './assets/imagens/sala2/img3.jpg';
+});
+
+document.getElementById('foto-sala 2.3').addEventListener('mouseover', function() {
+    var img = document.getElementById('foto-sala2-grande');
+    img.src = './assets/imagens/sala2/img4.jpg';
+});
+
+document.getElementById('foto-sala 2.4').addEventListener('mouseover', function() {
+    var img = document.getElementById('foto-sala2-grande');
+    img.src = './assets/imagens/sala2/img5.jpg';
+});
