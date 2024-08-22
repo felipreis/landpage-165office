@@ -24,12 +24,13 @@ ul {
 .menu-bar{
     background-color: #2F4F4F;
     height: 7.1rem;
+    height: 100px;
 }
 
 nav{
     max-width: 1120px;
     margin:auto;
-    padding:15px 40px;
+    padding:0px 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -38,11 +39,22 @@ nav{
     
 }
 
+li{
+    cursor: pointer;
+}
+
 .menu{
     display: flex;
     flex-direction: row;
     gap:24px ;
     color:#FFFFFF;
+    height: 90px;
+    align-items: center;
+}
+
+.nav-scroll:hover{
+    border-bottom: solid 1px #FFFFFF;
+    padding-top: 3px;
 }
 
 main{
@@ -223,10 +235,11 @@ h3{
 
     display: flex;
     flex-direction: row;
-
-
 }
 
+.galeria-foto{
+    cursor: pointer;
+}
 
 .pacotes-section{
     max-width: 1120px;
@@ -287,6 +300,8 @@ h3{
     background-color:#25D366 ;
     border: #25D366;
     color: #FFFFFF;
+
+    cursor: pointer;
 }
 
 #btnwhatsapp:hover{

@@ -77,3 +77,29 @@ contato.addEventListener("click", function(){
         behavior:"smooth"
     })
 })
+
+document.getElementById('foto-sala 1.0').addEventListener('mouseover', function() {
+    var img = document.getElementById('foto-sala1-grande');
+    img.src = './assets/imagens/salafrentecheia.jpg';
+});
+
+document.getElementById('foto-sala 1.1').addEventListener('mouseover', function() {
+    var img = document.getElementById('foto-sala1-grande');
+    img.src = './assets/imagens/fotosala.jpg';
+});
+
+document.getElementById('foto-sala 1.2').addEventListener('mouseover', function() {
+    var img = document.getElementById('foto-sala1-grande');
+    img.src = './assets/imagens/salafrentecheia.jpg';
+});
+
+document.getElementById('foto-sala 1.3').addEventListener('mouseover', function() {
+    var img = document.getElementById('foto-sala1-grande');
+    img.src = './assets/imagens/fotosala.jpg';
+});
+
+document.getElementById('foto-sala 1.4').addEventListener('mouseover', function() {
+    var img = document.getElementById('foto-sala1-grande');
+    img.src = './assets/imagens/salafrentecheia.jpg';
+});
+
